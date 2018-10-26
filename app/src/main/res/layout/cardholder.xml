@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:elevation="5dp" android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/userIdTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/detailsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:text="Details"
+        android:textSize="20sp" />
+
+
+</android.support.v7.widget.CardView>
